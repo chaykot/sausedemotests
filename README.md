@@ -12,9 +12,10 @@
 This repository contains three demo end-to-end tests against the Sauce Demo site:
 
 1. Successful login.
-2. Parameterized test for incorrect credentials - you can vary inputs and observe different error messages.  
-   (One test is intentionally failing to demonstrate screenshot capture in the report.)
+2. Parameterized test for incorrect credentials - you can vary inputs and observe different error messages.
 3. Product-sorting verification.
+
+> **Note:** One test is intentionally failing to demonstrate screenshot capture in the report.
 
 The tests use the Page Object Model pattern.  
 Playwright’s HTML report is generated after runs; screenshots are attached for failed cases.
