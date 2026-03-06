@@ -7,10 +7,5 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": [
-    "tests/**/*",
-    "src/**/*",
-    "constants.ts",
-    "playwright.config.ts"
-  ]
+  "include": ["tests/**/*", "src/**/*", "constants.ts", "playwright.config.ts"]
 }
